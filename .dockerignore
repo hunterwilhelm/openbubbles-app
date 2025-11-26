@@ -1,0 +1,45 @@
+# Git (keep .git and .gitmodules for submodule initialization)
+.gitignore
+
+# Build outputs
+build/
+**/build/
+**/.gradle/
+**/local.properties
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+*.swp
+
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Documentation
+*.md
+!README.md
+
+# CI/CD
+.github/
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Misc
+*.log
+*.class
+*.pyc
+codegen_logs
+

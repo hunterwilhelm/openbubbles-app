@@ -66,3 +66,6 @@ native-lib/target/**
 # Android
 android/app/local.properties
 android/app/.gradle/**
+
+# FVM Version Cache
+.fvm/
